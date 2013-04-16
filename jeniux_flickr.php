@@ -25,15 +25,6 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
 
 
-
-//INSTALL
-/*register_activation_hook( __FILE__, 'jx_social_install' );
-function jx_social_install() {
-  if (version_compare( get_bloginfo( 'version' ), '3.1', ' < ' ) ) {
-		deactivate_plugins( basename( __FILE__ ) ); // Deactivate plugin
-	}
-}
-*/
 // INIT Widget
 add_action( 'widgets_init', 'jeniux_flickr_widget_register' );
 
